@@ -1,0 +1,116 @@
+
+
+
+###############################################################
+##  CITY  //  category: city
+##-------------------------------------------------------------
+
+
+- id: spectacular-oslo-bergen-break-with-optional-fjord-tour
+  editors-pick: true
+  category: city
+  title: Spectacular Oslo & Bergen break with optional fjord tour
+  location: Scandic St. Olavs plass & Clarion Hotel Admiral, Norway
+  description: A fantastic four-night trip to Norway's Oslo and Bergen, with one of the world's most scenic journeys
+  price: 459
+  price-description: per person for 4 nights
+  saved: 37
+  expires: 2020/04/14
+  link: https://www.secretescapes.com/
+
+- id: farris-bad
+  category: city
+  title: Farris Bad
+  location: Larvik, Norway
+  description: Upscale beachfront stay at the first Nordic balneological health resort, with a supersized spa
+  price: 214
+  price-description: per room per night
+  saved: 33
+  expires: 2020/04/20
+  link: https://www.secretescapes.com/
+
+- id: first-hotel-marin
+  category: city
+  title: First Hotel Marin
+  location: Bergen, Norway
+  description: A unique stay in the centre of picturesque Bergen, just a stone's throw from the harbour
+  price: 48
+  price-description: per room per night
+  saved: 43
+  expires: 2020/04/20
+  link: https://www.secretescapes.com/
+
+- id: magic-hotel
+  category: city
+  title: Magic Hotel
+  location: Bergen, Norway
+  description: A brand-new hip hotel in the centre of Bergen, designed by a top New York designer
+  price: 73
+  price-description: per room per night
+  saved: 55
+  expires: 2020/04/20
+  link: https://www.secretescapes.com/
+
+
+###############################################################
+##  TROPICAL  //  category: tropical
+##-------------------------------------------------------------
+
+
+- id: first-hotel-marin
+  editors-pick: true
+  category: tropical
+  title: First Hotel Marin
+  location: Bergen, Norway
+  description: A unique stay in the centre of picturesque Bergen, just a stone's throw from the harbour
+  price: 48
+  price-description: per room per night
+  saved: 43
+  expires: 2020/04/20
+  link: https://www.secretescapes.com/
+
+- id: magic-hotel
+  category: tropical
+  title: Magic Hotel
+  location: Bergen, Norway
+  description: A brand-new hip hotel in the centre of Bergen, designed by a top New York designer
+  price: 73
+  price-description: per room per night
+  saved: 55
+  expires: 2020/04/20
+  link: https://www.secretescapes.com/
+
+
+###############################################################
+##  ADVENTURE  //  category: adventure
+##-------------------------------------------------------------
+
+
+- id: magic-hotel
+  editors-pick: true
+  category: adventure
+  title: Magic Hotel
+  location: Bergen, Norway
+  description: A brand-new hip hotel in the centre of Bergen, designed by a top New York designer
+  price: 73
+  price-description: per room per night
+  saved: 55
+  expires: 2020/04/20
+  link: https://www.secretescapes.com/
+
+- id: first-hotel-marin
+  category: adventure
+  title: First Hotel Marin
+  location: Bergen, Norway
+  description: A unique stay in the centre of picturesque Bergen, just a stone's throw from the harbour
+  price: 48
+  price-description: per room per night
+  saved: 43
+  expires: 2020/04/20
+  link: https://www.secretescapes.com/
+
+
+
+
+
+

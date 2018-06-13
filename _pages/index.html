@@ -1,0 +1,76 @@
+---
+layout: default
+id: overview
+nav: true
+nav-order: 1
+title: Overview
+
+banner:
+  content: >
+    <h1 class="banner-title title--highlight">Havaianas Summer<br /> Escapes</h1>
+
+
+
+intro: >
+  <p class="text--xxl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque illum possimus doloremque, voluptates tempore accusamus alias nihil sunt nesciunt placeat perspiciatis adipisci est maiores dolorem quos aperiam! Quo ratione rem ex voluptate tempora, rerum aliquid facere nesciunt architecto voluptatibus voluptas. Officiis pariatur sed esse, reiciendis totam fugiat in! Ex, quos?</p>
+
+
+---
+
+
+
+<div class="vpad--xxl">
+  <div class="container container--xl text--center text--lg">
+    {{page.intro}}
+  </div>
+</div>
+
+
+
+<div class="bg--grey-lightest vpad--xl">
+  {% assign content-pages = site.html_pages | where: 'content-pages', 'true' | sort: 'nav-order' %}
+  {% for subpage in content-pages %}
+  <div class="section section--{{subpage.id}} container vpad--xl js-section">
+
+    <!-- TITLE -->
+    <div class="text--center">
+      <h2 class="title title--xxxxl text--lower text--italic">{{subpage.parent.title}}</h2>
+    </div>
+
+    <!-- DESCRIPTION -->
+    <div class="row row--valign-center row--no-gutters {% cycle 'row--swap', '' %}">
+      <div class="col col--5">
+        <div class="boxpad--xxl">
+          {{subpage.parent.intro}}
+          <div class="space--md"></div>
+          <a href="{{site.baseurl}}{{subpage.url}}" class="btn btn--solid">Continue exploring</a>
+        </div>
+      </div>
+
+      <div class="section__gallery col col--7">
+
+        <div class="section__gallery-color">
+          <div class="section__gallery-color-box"></div>
+        </div>
+
+        <div class="section__gallery-product js-plx" data-plx="0.1">
+          <a href="{{site.baseurl}}{{subpage.url}}">
+            <img src="{{site.img}}/content/overview/{{subpage.parent.product}}.png" width="100%">
+          </a>
+        </div>
+
+        <div class="section__gallery-image js-plx" data-plx="0.2">
+          <a href="{{site.baseurl}}{{subpage.url}}" class="bg-img bg-img--4-3 bg-img--md-16-9 bg-img--xxl-2-3" style="background-image: url('{{site.img}}/banner/{{subpage.id}}.jpg');"></a>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  {% endfor %}
+</div>
+
+
+
+
+{% include page/promo-havaianas.html %}

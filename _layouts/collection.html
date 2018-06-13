@@ -1,0 +1,84 @@
+---
+layout: default
+---
+{% assign offers = site.data.offers | where: 'category', page.id %}
+{% assign products = site.data.products | where: 'category', page.id %}
+
+
+
+<div class="bg--white vpad--xxl">
+  <div class="container container--xxl text--center">
+    {{page.intro}}
+  </div>
+  <div class="space--lg"></div>
+  <hr class="hr--center">
+  <div class="space--md"></div>
+  <div class="container">
+    <div class="text--center">
+      <h3 class="title title--sm text--upper">Editor's pick</h3>
+      <div class="space--md"></div>
+    </div>
+    {% for offer in offers %}
+      {% if offer.editors-pick %}
+        {% include offer/offer-lg.html %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+
+
+<div class="bg--grey-lightest vpad--xl">
+  <div class="container container--xxl">
+    <div class="text--center">
+      <h3 class="title title--md text--bolder text--upper">
+        <img src="{{site.img}}/logo/partner.svg" style="max-width: 200px;" alt="Havaianas">
+      </h3>
+      <div class="space--sm"></div>
+      <p class="text--lg">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+    </div>
+    <div class="vpad--lg">
+      <div class="row row--xl-4-4-4">
+        {% for product in products %}
+          <div class="col">
+            <div class="product">
+              <div class="product__image">
+                <div class="bg-img bg-img--4-3" style="background-image: url({{site.img}}/products/{{product.id}}.jpg);"></div>
+              </div>
+              <div class="product__text">
+                <h5 class="title title--xxs text--bolder">{{product.title}}</h5>
+                <span>{{product.description}}</span>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="text--center">
+      <a href="#" class="btn btn--solid btn--lg">View all products</a>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="bg--grey-lightest vpad--xxl">
+  <div class="container">
+    <div class="text--center">
+      <h3 class="title title--xxl text-lower">{{page.id}} offers</h3>
+      <div class="space--lg"></div>
+    </div>
+    <div class="row row--xl-6-6 row--gutters-lg">
+      {% for offer in offers %}
+        <div class="col">
+          {% include offer/offer.html %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% include page/promo-havaianas.html %}
+
+{% include page/promo-offers.html %}
+

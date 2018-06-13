@@ -1,0 +1,128 @@
+
+
+###############################################################
+##  CITY  //  category: city
+##-------------------------------------------------------------
+
+
+- id: product
+  title: Product 1
+  category: city
+  description: Product description
+  link:
+
+- id: product
+  title: Product 2
+  category: city
+  description: Product description
+  link:
+
+- id: product
+  title: Product 3
+  category: city
+  description: Product description
+  link:
+
+- id: product
+  title: Product 4
+  category: city
+  description: Product description
+  link:
+
+- id: product
+  title: Product 5
+  category: city
+  description: Product description
+  link:
+
+- id: product
+  title: Product 6
+  category: city
+  description: Product description
+  link:
+
+
+###############################################################
+##  TROPICAL  //  category: tropical
+##-------------------------------------------------------------
+
+
+- id: product
+  title: Product 1
+  category: tropical
+  description: Product description
+  link:
+
+- id: product
+  title: Product 2
+  category: tropical
+  description: Product description
+  link:
+
+- id: product
+  title: Product 3
+  category: tropical
+  description: Product description
+  link:
+
+- id: product
+  title: Product 4
+  category: tropical
+  description: Product description
+  link:
+
+- id: product
+  title: Product 5
+  category: tropical
+  description: Product description
+  link:
+
+- id: product
+  title: Product 6
+  category: tropical
+  description: Product description
+  link:
+
+
+###############################################################
+##  ADVENTURE  //  category: adventure
+##-------------------------------------------------------------
+
+
+- id: product
+  title: Product 1
+  category: adventure
+  description: Product description
+  link:
+
+- id: product
+  title: Product 2
+  category: adventure
+  description: Product description
+  link:
+    
+- id: product
+  title: Product 3
+  category: adventure
+  description: Product description
+  link:
+
+- id: product
+  title: Product 4
+  category: adventure
+  description: Product description
+  link:
+
+- id: product
+  title: Product 5
+  category: adventure
+  description: Product description
+  link:
+
+- id: product
+  title: Product 6
+  category: adventure
+  description: Product description
+  link:
+
+
