@@ -69,24 +69,11 @@
 }
 
 
-// pages color theme
-.page {
-  &--city {
-    .title--highlight:after { background-color: $page-city; }
-  }
-  &--tropical {
-    .title--highlight:after { background-color: $page-tropical; }
-  }
-  &--adventure {
-    .title--highlight:after { background-color: $page-adventure; }
-  }
-}
-
-
 
 // product tiles
 .product {
   @include transition;
+  display: block;
   padding: 0.5em;
   background-color: $white;
   box-shadow: 0 2px 10px rgba($grey-darkest, 0.1);

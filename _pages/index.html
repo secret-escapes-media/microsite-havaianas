@@ -11,7 +11,7 @@ banner:
 
 
 intro: >
-  <p class="text--xxl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque illum possimus doloremque, voluptates tempore accusamus alias nihil sunt nesciunt placeat perspiciatis adipisci est maiores dolorem quos aperiam! Quo ratione rem ex voluptate tempora, rerum aliquid facere nesciunt architecto voluptatibus voluptas. Officiis pariatur sed esse, reiciendis totam fugiat in! Ex, quos?</p>
+  <p class="text--xl">Explore the world this summer with a pair of Havaianas on your feet. Havaianas and Secret Escapes bring you the summer escapes collection, with handpicked travel offers that will leave you reeling with that sunshine feeling. Discover editor’s picks for chic city breaks, gorgeous tropical getaways, and far-flung adventures, with a perfect pairing of the Havaianas collection to complement your escapes. </p>
 
 
 ---
@@ -19,14 +19,14 @@ intro: >
 
 
 <div class="vpad--xxl">
-  <div class="container container--xl text--center text--lg">
+  <div class="container container--xxl text--center">
     {{page.intro}}
   </div>
 </div>
 
+<hr class="hr--center">
 
-
-<div class="bg--grey-lightest vpad--xl">
+<div class="bg--white">
   {% assign content-pages = site.html_pages | where: 'content-pages', 'true' | sort: 'nav-order' %}
   {% for subpage in content-pages %}
   <div class="section section--{{subpage.id}} container vpad--xl js-section">
@@ -34,6 +34,7 @@ intro: >
     <!-- TITLE -->
     <div class="text--center">
       <h2 class="title title--xxxxl text--lower text--italic">{{subpage.parent.title}}</h2>
+      <div class="space--sm"></div>
     </div>
 
     <!-- DESCRIPTION -->
@@ -66,6 +67,7 @@ intro: >
 
   </div>
   {% endfor %}
+  <div class="space--xxxxl"></div>
 </div>
 
 

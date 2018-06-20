@@ -4,6 +4,7 @@
 
   // custom content headline
   font-family: $font-title-01;
+  line-height: 1.1;
   &--xxxxl  { font-size: $s9; }
   &--xxxl   { font-size: $s8; }
   &--xxl    { font-size: $s7; }
@@ -15,7 +16,7 @@
   &--xxs    { font-size: $s1; }
   &--xxxs   { font-size: $s0; }
   @include bp($lg){
-    &--xxxxl  { font-size: $s10; }
+    &--xxxxl  { font-size: $s11; }
     &--xxxl   { font-size: $s9; }
     &--xxl    { font-size: $s8; }
     &--xl     { font-size: $s7; }
@@ -25,21 +26,6 @@
     &--xs     { font-size: $s3; }
     &--xxs    { font-size: $s2; }
     &--xxxs   { font-size: $s1; }
-  }
-
-  &--highlight {
-    position: relative;
-    display: inline-block;
-    &:after {
-      content: "";
-      display: block;
-      background-color: $h-primary;
-      position: absolute;
-      z-index: -1;
-      bottom: 10%; left: 0;
-      height: 80%; width: 100%;
-      opacity: 0.8;
-    }
   }
 
 }
@@ -97,6 +83,8 @@
   font-family: $font-title-01;
   font-size: $s6;
   line-height: 1;
+  text-transform: lowercase;
+  font-style: italic;
   @include bp($md){ font-size: $s8; }
   @include bp($lg){ font-size: $s9; }
   @include bp($xl){ font-size: $s11; }

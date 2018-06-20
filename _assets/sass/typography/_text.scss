@@ -2,8 +2,8 @@
 
 .text {
   // sizes
-  &--xxl { font-size: 1.3rem; line-height: 1.6; letter-spacing: 0; }
-  &--xl  { font-size: 1.2rem; line-height: 1.6; letter-spacing: 0; }
+  &--xxl { font-size: 1.5rem; line-height: 1.6; letter-spacing: 0; }
+  &--xl  { font-size: 1.3rem; line-height: 1.6; letter-spacing: 0; }
   &--lg  { font-size: 1.1rem; letter-spacing: 0; }
   &--sm  { font-size: .8rem; }
 
@@ -31,4 +31,8 @@
     &--bp-right  { text-align: right; }
     &--bp-center { text-align: center; }
   }
+
+  &--color-city { color: $page-city; }
+  &--color-tropical { color: $page-tropical; }
+  &--color-adventure { color: $page-adventure; }
 }

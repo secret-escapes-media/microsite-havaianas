@@ -6,17 +6,22 @@ layout: default
 
 
 
-<div class="bg--white vpad--xxl">
-  <div class="container container--xxl text--center">
-    {{page.intro}}
+<div class="bg--white">
+
+  <div class="container text--center vpad--lg">
+    <h1 class="title title--xxxxl text--lower text--italic text--color-{{page.id}}">{{page.title}}</h1>
+    <div class="space--xxl"></div>
+    <div class="container container--xxl">
+      {{page.intro}}
+    </div>
   </div>
-  <div class="space--lg"></div>
+
   <hr class="hr--center">
-  <div class="space--md"></div>
-  <div class="container">
+
+  <div class="container vpad--lg">
     <div class="text--center">
-      <h3 class="title title--sm text--upper">Editor's pick</h3>
-      <div class="space--md"></div>
+      <h3 class="title title--md text--upper text--bold">Editor's pick</h3>
+      <div class="space--lg"></div>
     </div>
     {% for offer in offers %}
       {% if offer.editors-pick %}
@@ -24,24 +29,28 @@ layout: default
       {% endif %}
     {% endfor %}
   </div>
+  <div class="space--xxl"></div>
 </div>
 
 
 
-<div class="bg--grey-lightest vpad--xl">
-  <div class="container container--xxl">
+<div class="bg--grey-lightest">
+
+  <div class="container container--xxl vpad--xxl">
+
     <div class="text--center">
       <h3 class="title title--md text--bolder text--upper">
         <img src="{{site.img}}/logo/partner.svg" style="max-width: 200px;" alt="Havaianas">
       </h3>
       <div class="space--sm"></div>
-      {{page.havaianas.intro}}
+      <p class="text--xl">{{page.havaianas.intro}}</p>
     </div>
+
     <div class="vpad--lg">
       <div class="row row--xl-4-4-4">
         {% for product in products %}
           <div class="col">
-            <div class="product">
+            <a href="{{product.link}}" class="product">
               <div class="product__image">
                 <div class="bg-img bg-img--4-3" style="background-image: url({{site.img}}/products/{{product.id}}.jpg);"></div>
               </div>
@@ -49,24 +58,24 @@ layout: default
                 <h5 class="title title--xxs text--bolder">{{product.title}}</h5>
                 <span>{{product.description}}</span>
               </div>
-            </div>
+            </a>
           </div>
         {% endfor %}
       </div>
     </div>
+
     <div class="text--center">
       <a href="#" class="btn btn--solid btn--lg">View all products</a>
     </div>
+
   </div>
-</div>
 
+  <hr class="hr--center">
 
-
-<div class="bg--grey-lightest vpad--xxl">
-  <div class="container">
+  <div class="container vpad--xl">
     <div class="text--center">
-      <h3 class="title title--xxl text-lower">{{page.id}} offers</h3>
-      <div class="space--lg"></div>
+      <h3 class="title title--md text--upper text--bold">{{page.id}} offers</h3>
+      <div class="space--xl"></div>
     </div>
     <div class="row row--xl-6-6 row--gutters-lg">
       {% for offer in offers %}
@@ -78,7 +87,7 @@ layout: default
   </div>
 </div>
 
-{% include page/promo-havaianas.html %}
-
 {% include page/promo-offers.html %}
+
+{% include page/promo-havaianas.html %}
 

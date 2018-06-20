@@ -12,10 +12,20 @@
   color: $white;
   background-color: $grey;
   @include bp($lg){
-    height: 90%;
+    height: 85%;
     min-height: 650px;
     max-height: none;
   }
+
+  &--sm {
+    height: 33.333%;
+    min-height: 300px;
+    @include bp($lg){
+      height: 66.7%;
+      min-height: 500px;
+    }
+  }
+
   &__wrap {
     position: relative;
     z-index: $z-content-upper;
@@ -56,6 +66,32 @@
     &--top {
       top: 0;
       bottom: auto;
+    }
+  }
+
+  &__wave {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    bottom: -1px;
+    left: 0; right: 0;
+    display: block;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    &:before {
+      content: "";
+      display: block;
+      width: 100%;
+      padding-top: 6%;
+    }
+    &--city { background-image: url(../img/icons/wave-city.svg); }
+    &--tropical { background-image: url(../img/icons/wave-tropical.svg); }
+    &--adventure { background-image: url(../img/icons/wave-adventure.svg); }
+    &--overview {
+      background-image: url(../img/icons/wave-overview.svg);
+      &:before { padding-top: 13.5%; }
     }
   }
 }
