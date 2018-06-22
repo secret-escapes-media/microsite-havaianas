@@ -1,128 +1,146 @@
 
 
 ###############################################################
-##  CITY  //  category: city
+##  CITY  //  category:city
 ##-------------------------------------------------------------
 
 
-- id: product
-  title: Product 1
+- id: sandals-1
   category: city
+  title: You Belize
   description: Product description
+  price: 99
   link:
 
-- id: product
-  title: Product 2
+- id: sandals-2
   category: city
+  title: You St Tropez
   description: Product description
+  price: 99
   link:
 
-- id: product
-  title: Product 3
+- id: sandals-3
   category: city
+  title: You Riviera Maxi
   description: Product description
+  price: 99
   link:
 
-- id: product
-  title: Product 4
+- id: sandals-4
   category: city
+  title: You Belize
   description: Product description
+  price: 99
   link:
 
-- id: product
-  title: Product 5
+- id: sandals-5
   category: city
+  title: You Riviera
   description: Product description
+  price: 99
   link:
 
-- id: product
-  title: Product 6
+- id: sandals-6
   category: city
+  title: You Metallic
   description: Product description
+  price: 99
   link:
 
 
 ###############################################################
-##  TROPICAL  //  category: tropical
+##  TROPICAL  //  category:tropical
 ##-------------------------------------------------------------
 
 
-- id: product
-  title: Product 1
+- id: flip-flops-1
   category: tropical
+  title: Slim
   description: Product description
+  price: 99
   link:
 
-- id: product
-  title: Product 2
+- id: flip-flops-2
   category: tropical
+  title: Slim Tropical
   description: Product description
+  price: 99
   link:
 
-- id: product
-  title: Product 3
+- id: flip-flops-3
   category: tropical
+  title: Slim
   description: Product description
+  price: 99
   link:
 
-- id: product
-  title: Product 4
+- id: flip-flops-4
   category: tropical
+  title: Slim
   description: Product description
+  price: 99
   link:
 
-- id: product
-  title: Product 5
+- id: flip-flops-5
   category: tropical
+  title: Slim Tropical
   description: Product description
+  price: 99
   link:
 
-- id: product
-  title: Product 6
+- id: flip-flops-6
   category: tropical
+  title: Slim
   description: Product description
+  price: 99
   link:
 
 
 ###############################################################
-##  ADVENTURE  //  category: adventure
+##  ADVENTURE  //  category:adventure
 ##-------------------------------------------------------------
 
 
-- id: product
-  title: Product 1
+- id: espadrilles-1
   category: adventure
+  title: Origine Flatform Fashion
   description: Product description
+  price: 99
   link:
 
-- id: product
-  title: Product 2
+- id: espadrilles-2
   category: adventure
+  title: Origine III
   description: Product description
-  link:
-    
-- id: product
-  title: Product 3
-  category: adventure
-  description: Product description
+  price: 99
   link:
 
-- id: product
-  title: Product 4
+- id: espadrilles-3
   category: adventure
-  description: Product description
+  title: Origine Flat Form Up
+  description: Beige
+  price: 99
   link:
 
-- id: product
-  title: Product 5
+- id: espadrilles-4
   category: adventure
+  title: Origine Flatform Fashion
   description: Product description
+  price: 99
   link:
 
-- id: product
-  title: Product 6
+- id: espadrilles-5
   category: adventure
+  title: Origine Slim
   description: Product description
+  price: 99
+  link:
+
+- id: espadrilles-6
+  category: adventure
+  title: Origine Flat Form Up
+  description: Black
+  price: 99
   link:
 
 

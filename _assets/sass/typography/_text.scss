@@ -13,6 +13,7 @@
   &--normal       { font-weight: 400; }
   &--bold         { font-weight: 600; }
   &--bolder       { font-weight: 700; }
+  &--tight-kern    { letter-spacing: -0.02em; }
   &--wide-kern    { letter-spacing: .1em; }
   &--wide-kern-lg { letter-spacing: .2em; }
   &--upper        { text-transform: uppercase; }

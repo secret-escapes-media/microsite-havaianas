@@ -70,6 +70,35 @@
 
 
 
+// products section
+.products {
+  padding-top: $s12;
+  padding-bottom: $s6;
+  &__intro {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    &-text {
+      flex: 0 0 40%; max-width: 40%;
+      padding-bottom: $s2;
+      padding-right: $s4;
+    }
+    &-image {
+      flex: 0 0 60%; max-width: 60%;
+      position: relative;
+      & .bg-img {
+        @include bp($lg) {
+          position: absolute;
+          width: 100%;
+          box-shadow: 5px 30px 60px rgba(0, 0, 0, 0.15);
+        }
+      }
+    }
+  }
+}
+
 // product tiles
 .product {
   @include transition;
@@ -87,6 +116,6 @@
   }
   &__text {
     text-align: center;
-    padding: 0.5em $s2 0.3em;
+    padding: 0.7em $s2 0.3em;
   }
 }

@@ -85,6 +85,7 @@
   line-height: 1;
   text-transform: lowercase;
   font-style: italic;
+  text-shadow: 0 3px 30px rgba($grey-darkest,0.2);
   @include bp($md){ font-size: $s8; }
   @include bp($lg){ font-size: $s9; }
   @include bp($xl){ font-size: $s11; }

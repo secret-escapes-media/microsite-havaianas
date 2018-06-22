@@ -109,6 +109,10 @@ $nav-color:          $grey-darkest;
     left: 0;
     right: 0;
     bottom: auto;
-    z-index: $z-nav  ;
+    z-index: $z-nav;
+  }
+
+  &--footer {
+    position: relative !important;
   }
 }
