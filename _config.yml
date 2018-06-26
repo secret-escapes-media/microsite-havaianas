@@ -2,11 +2,11 @@
 title: Havaianas Summer Escapes
 client:
   name: Havaianas
-  link: "#client-name"
+  link: "https://www.havaianas-store.com/en?cCode=GB&utm_source=20&utm_term=ext2&utm_content=display&utm_campaign=cont_"
 core-se-link: https://www.secretescapes.com/current-sales
 
 description: >
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Explore the world this summer with a pair of Havaianas on your feet. Havaianas and Secret Escapes bring you the summer escapes collection, with handpicked travel offers that will leave you reeling with that sunshine feeling.
 
 # file paths
 url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site

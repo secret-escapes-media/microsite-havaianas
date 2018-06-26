@@ -32,7 +32,7 @@ intro: >
   <div class="section section--{{subpage.id}} container vpad--xl js-section">
 
     <!-- TITLE -->
-    <div class="text--center">
+    <div class="section__title">
       <h2 class="title title--xxxxl text--lower text--italic">{{subpage.parent.title}}</h2>
       <div class="space--sm"></div>
     </div>
@@ -40,8 +40,8 @@ intro: >
     <!-- DESCRIPTION -->
     <div class="row row--valign-center row--no-gutters {% cycle 'row--swap', '' %}">
 
-      <div class="col col--5">
-        <div class="boxpad--xxl">
+      <div class="col col--xl-5">
+        <div class="section__content">
           {{subpage.parent.intro}}
           <div class="space--md"></div>
           <a href="{{site.baseurl}}{{subpage.url}}" class="btn btn--solid">Continue exploring</a>
@@ -49,17 +49,17 @@ intro: >
       </div>
 
       <!-- Section images/colour block -->
-      <div class="section__gallery col col--7">
+      <div class="section__gallery col col--xl-7">
         <div class="section__gallery-color">
           <div class="section__gallery-color-box"></div>
         </div>
-        <div class="section__gallery-product js-plx" data-plx="0.1">
+        <div class="section__gallery-product js-plx" data-plx="0.2">
           <a href="{{site.baseurl}}{{subpage.url}}">
             <img src="{{site.img}}/content/overview/{{subpage.parent.product}}.png" width="100%">
           </a>
         </div>
-        <div class="section__gallery-image js-plx" data-plx="0.2">
-          <a href="{{site.baseurl}}{{subpage.url}}" class="bg-img bg-img--4-3 bg-img--md-16-9 bg-img--xxl-2-3" style="background-image: url('{{site.img}}/banner/{{subpage.id}}.jpg');"></a>
+        <div class="section__gallery-image js-plx" data-plx="0.1">
+          <a href="{{site.baseurl}}{{subpage.url}}" class="bg-img bg-img--4-3 bg-img--xl-2-3" style="background-image: url('{{site.img}}/banner/{{subpage.id}}.jpg');"></a>
         </div>
       </div>
 

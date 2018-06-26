@@ -4,8 +4,8 @@
 
   // custom content headline
   font-family: $font-title-01;
-  line-height: 1.1;
-  &--xxxxl  { font-size: $s9; }
+  line-height: 1;
+  &--xxxxl  { font-size: $s8; }
   &--xxxl   { font-size: $s8; }
   &--xxl    { font-size: $s7; }
   &--xl     { font-size: $s6; }
@@ -16,7 +16,7 @@
   &--xxs    { font-size: $s1; }
   &--xxxs   { font-size: $s0; }
   @include bp($lg){
-    &--xxxxl  { font-size: $s11; }
+    &--xxxxl  { font-size: $s9; }
     &--xxxl   { font-size: $s9; }
     &--xxl    { font-size: $s8; }
     &--xl     { font-size: $s7; }
@@ -27,7 +27,9 @@
     &--xxs    { font-size: $s2; }
     &--xxxs   { font-size: $s1; }
   }
-
+  @include bp($xxxl){
+    &--xxxxl  { font-size: $s11; }
+  }
 }
 
 .sub-title {
@@ -81,7 +83,7 @@
 
   // custom banner headline
   font-family: $font-title-01;
-  font-size: $s6;
+  font-size: $s8;
   line-height: 1;
   text-transform: lowercase;
   font-style: italic;

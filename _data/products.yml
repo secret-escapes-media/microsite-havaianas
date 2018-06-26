@@ -8,44 +8,44 @@
 - id: sandals-1
   category: city
   title: You Belize
-  description: Product description
-  price: 99
-  link:
+  description:
+  price: 38
+  link: "https://www.havaianas-store.com/eshop/product/Havaianas-Online-Store-Sandals-HAVAIANAS-YOU-BELIZE.html/1/pid/295995/frmCatID/58374/?cCode=GB&utm_source=20&utm_term=ext2&utm_content=display&utm_campaign=cont_&options=28384%2C6147"
 
 - id: sandals-2
   category: city
   title: You St Tropez
-  description: Product description
-  price: 99
-  link:
+  description:
+  price: 28
+  link: "https://www.havaianas-store.com/eshop/product/Havaianas-Online-Store-Sandals-HAVAIANAS-YOU-SAINT-TROPEZ.html/1/pid/296007/frmCatID/58374/?cCode=GB&utm_source=20&utm_term=ext2&utm_content=display&utm_campaign=cont_"
 
 - id: sandals-3
   category: city
   title: You Riviera Maxi
-  description: Product description
-  price: 99
-  link:
+  description:
+  price: 44
+  link: "https://www.havaianas-store.com/en/collection/women/sandals/havaianas-you-riviera-maxi?cCode=GB&utm_source=20&utm_term=ext2&utm_content=display&utm_campaign=cont_"
 
 - id: sandals-4
   category: city
   title: You Belize
-  description: Product description
-  price: 99
-  link:
+  description:
+  price: 38
+  link: "https://www.havaianas-store.com/eshop/product/Havaianas-Online-Store-Sandals-HAVAIANAS-YOU-BELIZE.html/1/pid/295995/frmCatID/58374/?cCode=GB&utm_source=20&utm_term=ext2&utm_content=display&utm_campaign=cont_"
 
 - id: sandals-5
   category: city
   title: You Riviera
-  description: Product description
-  price: 99
-  link:
+  description:
+  price: 34
+  link: "https://www.havaianas-store.com/en/women/sandals/havaianas-you-riviera?cCode=GB&utm_source=20&utm_term=ext2&utm_content=display&utm_campaign=cont_"
 
 - id: sandals-6
   category: city
   title: You Metallic
-  description: Product description
-  price: 99
-  link:
+  description:
+  price: 28
+  link: "https://www.havaianas-store.com/en/sizechart-flip-flop-adults-unisex/havaianas-you-metallic?cCode=GB&utm_source=20&utm_term=ext2&utm_content=display&utm_campaign=cont_"
 
 
 ###############################################################
@@ -56,44 +56,44 @@
 - id: flip-flops-1
   category: tropical
   title: Slim
-  description: Product description
-  price: 99
-  link:
+  description:
+  price: 24
+  link: "https://www.havaianas-store.com/en/women/flip-flops/havaianas-slim?options=18769%2C6148/?cCode=GB&utm_source=20&utm_term=ext2&utm_content=display&utm_campaign=cont_"
 
 - id: flip-flops-2
   category: tropical
   title: Slim Tropical
-  description: Product description
-  price: 99
-  link:
+  description:
+  price: 28
+  link: "https://www.havaianas-store.com/en/women/flip-flops/slim-tropical?cCode=GB&utm_source=20&utm_term=ext2&utm_content=display&utm_campaign=cont_"
 
 - id: flip-flops-3
   category: tropical
   title: Slim
-  description: Product description
-  price: 99
-  link:
+  description:
+  price: 24
+  link: "https://www.havaianas-store.com/en/women/flip-flops/havaianas-slim?options=6179?cCode=GB&utm_source=20&utm_term=ext2&utm_content=display&utm_campaign=cont_&options=28924%2C6147"
 
 - id: flip-flops-4
   category: tropical
   title: Slim
-  description: Product description
-  price: 99
-  link:
+  description:
+  price: 24
+  link: "https://www.havaianas-store.com/en/women/flip-flops/havaianas-slim?options=13309%2C6148?cCode=GB&utm_source=20&utm_term=ext2&utm_content=display&utm_campaign=cont_"
 
 - id: flip-flops-5
   category: tropical
   title: Slim Tropical
-  description: Product description
-  price: 99
-  link:
+  description:
+  price: 28
+  link: "https://www.havaianas-store.com/en/women/flip-flops/slim-tropical?cCode=GB&utm_source=20&utm_term=ext2&utm_content=display&utm_campaign=cont_&options=28924%2C6147"
 
 - id: flip-flops-6
   category: tropical
   title: Slim
-  description: Product description
-  price: 99
-  link:
+  description:
+  price: 24
+  link: "https://www.havaianas-store.com/en/women/flip-flops/havaianas-slim?options=28924%2C6148?cCode=GB&utm_source=20&utm_term=ext2&utm_content=display&utm_campaign=cont_"
 
 
 ###############################################################
@@ -104,43 +104,43 @@
 - id: espadrilles-1
   category: adventure
   title: Origine Flatform Fashion
-  description: Product description
-  price: 99
-  link:
+  description:
+  price: 38
+  link: "https://www.havaianas-store.com/en/women/new-arrivals/havaianas-origine-flatform?cCode=GB&utm_source=20&utm_term=ext2&utm_content=display&utm_campaign=cont_"
 
 - id: espadrilles-2
   category: adventure
   title: Origine III
-  description: Product description
-  price: 99
-  link:
+  description:
+  price: 32
+  link: "https://www.havaianas-store.com/en/spring-summer-2017/havaianas-origine-iii?options=14622%2C25574?cCode=GB&utm_source=20&utm_term=ext2&utm_content=display&utm_campaign=cont_"
 
 - id: espadrilles-3
   category: adventure
   title: Origine Flat Form Up
-  description: Beige
-  price: 99
-  link:
+  description:
+  price: 36
+  link: "https://www.havaianas-store.com/en/women/new-arrivals/havaianas-origine-flatform-up?cCode=GB&utm_source=20&utm_term=ext2&utm_content=display&utm_campaign=cont_"
 
 - id: espadrilles-4
   category: adventure
   title: Origine Flatform Fashion
-  description: Product description
-  price: 99
-  link:
+  description:
+  price: 38
+  link: "https://www.havaianas-store.com/en/women/new-arrivals/havaianas-origine-flatform?options=24709%2C28702?cCode=GB&utm_source=20&utm_term=ext2&utm_content=display&utm_campaign=cont_"
 
 - id: espadrilles-5
   category: adventure
   title: Origine Slim
-  description: Product description
-  price: 99
-  link:
+  description:
+  price: 32
+  link: "https://www.havaianas-store.com/en/spring-summer-2017/havaianas-origine-slim?options=24709%2C28926?cCode=GB&utm_source=20&utm_term=ext2&utm_content=display&utm_campaign=cont_"
 
 - id: espadrilles-6
   category: adventure
   title: Origine Flat Form Up
-  description: Black
-  price: 99
-  link:
+  description:
+  price: 36
+  link: "https://www.havaianas-store.com/en/women/new-arrivals/havaianas-origine-flatform-up?options=24709%2C27844?cCode=GB&utm_source=20&utm_term=ext2&utm_content=display&utm_campaign=cont_"
 
 

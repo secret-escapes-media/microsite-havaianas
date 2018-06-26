@@ -14,17 +14,11 @@ function parallax(){
     var offset = distance - scroll;
     var speed = $(this).data('plx');
     $(this).css(
-      'margin-top', offset*speed
+      'top', offset*speed
     );
   });
 }
-
-
 parallax();
-$(window).scroll(function () {
-  parallax();
-});
-
 
 
 
@@ -32,8 +26,7 @@ $(window).scroll(function () {
 //        Active section
 ///////////////////////////////////////
 
-
-
+$('.js-section').addClass('is-inactive');
 function activeSection(){
   var scrollTop = $(document).scrollTop();
   var section = '.js-section';
@@ -41,13 +34,17 @@ function activeSection(){
   $(section).each(function(){
     var offset = $(this).offset().top;
     if( scrollTop+300 > offset ){
-      $(this).addClass('is-active');
+      $(this).removeClass('is-inactive').addClass('is-active');
     }else{
-      $(this).removeClass('is-active');
+      $(this).addClass('is-inactive').removeClass('is-active');
     }
   });
 }
 
+
+
+// Run functions on scroll
 $(window).scroll(function () {
+  parallax();
   activeSection();
 });

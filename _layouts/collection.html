@@ -10,7 +10,7 @@ layout: default
 
   <div class="container text--center vpad--lg">
     <h1 class="title title--xxxxl text--lower text--italic text--color-{{page.id}}">{{page.title}}</h1>
-    <div class="space--xxl"></div>
+    <div class="space--xl"></div>
     <div class="container container--xxl">
       {{page.intro}}
     </div>
@@ -39,18 +39,19 @@ layout: default
 
 
   <div class="products container">
+    <div class="space--xxxxl"></div>
 
     <div class="products__intro">
 
       <div class="products__intro-text">
         <h3 class="title title--md text--bolder text--upper">
-          <img src="{{site.img}}/logo/partner.svg" style="max-width: 160px;" alt="Havaianas">
+          <a href="https://www.havaianas-store.com/en?cCode=GB&utm_source=20&utm_term=ext2&utm_content=display&utm_campaign=cont_" id="track-product-section-logo" target="_blank"><img src="{{site.img}}/logo/partner.svg" style="max-width: 160px;" alt="Havaianas"></a>
         </h3>
         <div class="space--lg"></div>
         <h4 class="title title--xs text--bold text--upper">{{page.havaianas.title}}</h4>
         <p class="text--lg">{{page.havaianas.intro}}</p>
         <div class="space--md"></div>
-        <a href="{{page.havaianas.link}}" class="btn btn--solid">View all products</a>
+        <a href="{{page.havaianas.link}}" id="track-product-section-button" target="_blank" class="btn btn--solid">View all products</a>
       </div>
 
       <div class="products__intro-image">
@@ -62,16 +63,14 @@ layout: default
       <div class="row row--xl-4-4-4 row--constant-6-6">
         {% for product in products %}
           <div class="col">
-            <a href="{{product.link}}" class="product">
+            <a href="{{product.link}}" id="track-product-{{product.title|slugify}}" class="product">
               <div class="product__image">
                 <div class="bg-img bg-img--4-3" style="background-image: url({{site.img}}/content/{{page.id}}/products/{{product.id}}.jpg);"></div>
               </div>
               <div class="product__text">
-                <h5 class="title title--xxxs text--tight-kern text--bolder">{{product.title}}</h5>
-                <div class="text--sm space--xxs">
-                  <span class="text--bold">{{product.description}}</span>
-                  {% if product.price%} | <span class="text--bold">£{{product.price}}</span>{% endif %}
-                </div>
+                <h5 class="title title--xxxs">
+                  <span class="text--tight-kern text--bolder">{{product.title}}</span> : £{{product.price}}
+                </h5>
               </div>
             </a>
           </div>
@@ -83,7 +82,7 @@ layout: default
 
 
 
-  <div class="container vpad--xl">
+  <div class="container vpad--xxl">
     <div class="text--center">
       <h3 class="title title--xl text--bold">{{page.id}} offers</h3>
       <div class="space--xl"></div>
