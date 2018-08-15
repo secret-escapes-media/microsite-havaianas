@@ -6,72 +6,72 @@
 ##-------------------------------------------------------------
 
 
-- id: the-devonshire-club
-  title: The Devonshire Club
-  editors-pick: true
+- id: elite-eden-park-hotel
+  title: Elite Eden Park Hotel
   category: city
-  location: Liverpool Street, London
-  description: High-end design at a plush private members' club in London
-  price: 129
-  price-description: per room per night
-  saved: 59
-  expires: 2018/08/02
-  link: https://www.secretescapes.com/the-devonshire-club-liverpool-street-london/sale?utm_source=SE_Media&utm_medium=Havaianas&utm_campaign=July2018
-
-- id: the-james-new-york
-  title: The James New York
-  category: city
-  location: SoHo, New York
-  description: Art-centric boutique digs in chic SoHo, with a rooftop pool
-  price: 56
+  location: Stockholm, Sweden
+  description: Sleek and stylish digs in central Stockholm
+  price: 51
   price-description: per person per night
-  saved: 49
-  expires: 2018/08/02
-  link: https://www.secretescapes.com/the-james-new-york-soho-new-york/sale?utm_source=SE_Media&utm_medium=June2018&utm_campaign=Havaianas
+  saved: 39
+  expires: 2018/08/20
+  link: https://www.secretescapes.com/elite-eden-park-hotel-stockholm-sweden-3/sale?utm_source=SE_Media&utm_medium=Havaianas&utm_campaign=Aug2018
 
-- id: palazzo-cendon
-  title: Palazzo Cendon
-  category: city
-  location: Venice, Italy
-  description: A 15th-century palace sitting grandly on a Venice canal
-  price: 74
-  price-description: per room per night
-  saved: 57
-  expires: 2018/08/02
-  link: https://www.secretescapes.com/palazzo-cendon-venice-italyz/sale?utm_source=SE_Media&utm_medium=Havaianas&utm_campaign=July2018
-
-- id: h10-universitat
-  title: H10 Universitat
+- id: ofelias-hotel
+  title: Ofelias Hotel
   category: city
   location: Barcelona, Spain
-  description: A stylish, award-winning hotel with rooftop bar in central Barcelona
-  price: 50
+  description: A super-hip Barcelona stay with designer interiors
+  price: 123
+  price-description: per room per night
+  saved: 31
+  expires: 2018/08/20
+  link: https://www.secretescapes.com/ofelias-hotel-barcelona-spain/sale?utm_source=SE_Media&utm_medium=Havaianas&utm_campaign=Aug2018
+
+- id: hotel-barriere-le-gray-d-albion
+  title: Hôtel Barrière Le Gray d’Albion
+  category: city
+  location: Cannes, France
+  description: A newly renovated Cannes hotel with a private beach
+  price: 64
+  price-description: per person per night
+  saved: 39
+  expires: 2018/08/20
+  link: https://www.secretescapes.com/hotel-barriere-le-gray-dalbion-cannes-france/sale?utm_source=SE_Media&utm_medium=Havaianas&utm_campaign=Aug2018
+
+- id: riad-dar-al-walidine
+  title: Riad Dar Al Walidine
+  category: city
+  location: Marrakech, Morocco
+  description: A sumptuous suite stay at a boutique riad in Marrakech
+  price: 34
+  price-description: per person per night
+  saved: 53
+  expires: 2018/08/20
+  link: https://www.secretescapes.com/riad-dar-al-walidine-marrakech-morocco/sale?utm_source=SE_Media&utm_medium=Havaianas&utm_campaign=Aug2018
+
+- id: benci-house
+  title: Benci House
+  category: city
+  location: Florence, Italy
+  description: A boutique Florence base with hip style and a roof terrace
+  price: 57
   price-description: per person per night
   saved: 46
-  expires: 2018/08/02
-  link: https://www.secretescapes.com/h10-universitat-barcelona-spain/sale?utm_source=SE_Media&utm_medium=Havaianas&utm_campaign=July2018
+  expires: 2018/08/20
+  link: https://www.secretescapes.com/benci-house-florence-italy65/sale?utm_source=SE_Media&utm_medium=Havaianas&utm_campaign=Aug2018
 
-- id: yotel-singapore
-  title: Yotel Singapore
+- id: ace-hotel-new-york
+  title: Ace Hotel New York
+  editors-pick: true
   category: city
-  location: Orchard Road, Singapore
-  description: A high-tech hideaway in Singapore’s shopping and entertainment district
-  price: 100
-  price-description: per cabin per night
-  saved: 33
-  expires: 2018/08/02
-  link: https://www.secretescapes.com/yotel-singapore-orchard-road-singapore/sale?utm_source=SE_Media&utm_medium=Havaianas&utm_campaign=July2018
-
-- id: hotel-comète-paris
-  title: Hotel Comète Paris
-  category: city
-  location: Paris, France
-  description: A quirky and stylish new Parisian stay, with Scandi-inspired design and thoughtful details
-  price: 40
+  location: Midtown, New York
+  description: A trendy boutique hotel in Manhattan's hip NoMad neighborhood
+  price: 58
   price-description: per person per night
-  saved: 46
-  expires: 2018/08/02
-  link: https://www.secretescapes.com/hotel-comete-paris-paris-france/sale?utm_source=SE_Media&utm_medium=Havaianas&utm_campaign=July2018
+  saved: 29
+  expires: 2018/08/20
+  link: https://www.secretescapes.com/ace-hotel-new-york-new-york-new-york/sale?utm_source=SE_Media&utm_medium=Havaianas&utm_campaign=Aug2018
 
 
 ###############################################################
@@ -79,72 +79,72 @@
 ##-------------------------------------------------------------
 
 
-- id: haven-riviera-cancun
-  editors-pick: true
-  title: Haven Riviera Cancun
+- id: ajman-hotel
+  title: Ajman Hotel
   category: tropical
-  location: Cancun, Mexico
-  description: An all-inclusive suite stay at a brand-new beach hotel, slated to open in October
-  price: 110
-  price-description: per person per night
-  saved: 20
-  expires: 2018/08/02
-  link: https://www.secretescapes.com/haven-riviera-cancun-cancun-mexico/sale?utm_source=SE_Media&utm_medium=June2018&utm_campaign=Havaianas
-
-- id: fairmont-dubai
-  title: Fairmont Dubai
-  category: tropical
-  location: Dubai, UAE
-  description: Discover Dubai from a five-star city slicker
-  price: 90
-  price-description: per room per night
-  saved: 75
-  expires: 2018/08/02
-  link: https://www.secretescapes.com/fairmont-dubai-dubai-united-arab-emirates/sale?utm_source=SE_Media&utm_medium=Havaianas&utm_campaign=July2018
-
-- id: caramel-grecotel-boutique-resort
-  title: Caramel Grecotel Boutique Resort
-  category: tropical
-  location: Crete, Greek Islands
-  description: A five-star boutique hideout on Crete's tranquil coast
-  price: 96
-  price-description: per person per night
-  saved: 47
-  expires: 2018/08/02
-  link: https://www.secretescapes.com/caramel-grecotel-boutique-resort-crete-greece2/sale?utm_source=SE_Media&utm_medium=Havaianas&utm_campaign=July2018
-
-- id: azia-resort-spa
-  title: Azia Resort & Spa
-  category: tropical
-  location: Paphos, Cyprus
-  description: Rest and relaxation at a Cyprus beach resort with a spa
-  price: 84
-  price-description: per person per night
-  saved: 38
-  expires: 2018/08/02
-  link: https://www.secretescapes.com/azia-resort-and-spa-paphos-cyprus-uk/sale?utm_source=SE_Media&utm_medium=Havaianas&utm_campaign=July2018
-
-- id: mandarava-resort-spa
-  title: Mandarava Resort & Spa
-  category: tropical
-  location: Phuket, Thailand
-  description: A tropical resort and spa with modern interiors - breakfast and other perks included
-  price: 26
-  price-description: per person per night
-  saved: 55
-  expires: 2018/08/02
-  link: https://www.secretescapes.com/mandarava-resort-and-spa-phuket-thailand/sale?utm_source=SE_Media&utm_medium=Havaianas&utm_campaign=July2018
-
-- id: le-méridien-lav
-  title: Le Méridien Lav
-  category: tropical
-  location: Split, Croatia
-  description: A five-star award winner on the beautiful Dalmatian coast
+  location: Ajman, UAE
+  description: A five-star Ajman beach stay in the smallest Emirate
   price: 80
   price-description: per room per night
+  saved: 57
+  expires: 2018/08/20
+  link: https://www.secretescapes.com/ajman-hotel-ajman-uae33/sale?utm_source=SE_Media&utm_medium=Havaianas&utm_campaign=Aug2018
+
+- id: the-shore-club
+  title: The Shore Club
+  category: tropical
+  location: Miami, Florida
+  description: Stylish oceanfront glamour in the heart of Miami's glittering South Beach
+  price: 80
+  price-description: per room per night
+  saved: 20
+  expires: 2018/08/20
+  link: https://www.secretescapes.com/the-shore-club-miami-florida/sale?utm_source=SE_Media&utm_medium=Havaianas&utm_campaign=Aug2018
+
+- id: garza-blanca-preserve-resort-spa
+  title: Garza Blanca Preserve, Resort & Spa
+  category: tropical
+  location: Puerto Vallarta, Mexico
+  description: A relaxing tropical resort set between the beach and the jungle, with breakfast and a bottle of wine
+  price: 61
+  price-description: per room per night
   saved: 51
-  expires: 2018/08/02
-  link: https://www.secretescapes.com/le-meridien-lav-split-croatia3/sale?utm_source=SE_Media&utm_medium=Havaianas&utm_campaign=July2018
+  expires: 2018/08/20
+  link: https://www.secretescapes.com/hotel-guadalmina-spa-and-golf-resort-marbella-spain6/sale?utm_source=SE_Media&utm_medium=Havaianas&utm_campaign=Aug2018
+
+- id: tamarina-golf-spa-boutique-hotel
+  title: Tamarina Golf & Spa Boutique Hotel
+  category: tropical
+  location: Mauritius, Indian Ocean
+  description: Ultimate all-inclusive decadence at a tranquil Mauritius golf resort
+  price: 173
+  price-description: per room per night
+  saved: 66
+  expires: 2018/08/20
+  link: https://www.secretescapes.com/tamarina-golf-and-spa-boutique-hotel-mauritius-indian-ocean1/sale?utm_source=SE_Media&utm_medium=Havaianas&utm_campaign=Aug2018
+
+- id: hotel-font-mourier
+  title: Hôtel Font Mourier
+  category: tropical
+  location: Saint-Tropez, France
+  description: Idyllic French Riviera escape with views of Saint-Tropez bay
+  price: 152
+  price-description: per room per night
+  saved: 45
+  expires: 2018/08/20
+  link: https://www.secretescapes.com/hotel-font-mourier-saint-tropez-france3/sale?utm_source=SE_Media&utm_medium=Havaianas&utm_campaign=Aug2018
+
+- id: the-royal-purnama-art-suites-villas
+  title: The Royal Purnama Art Suites & Villas
+  editors-pick: true
+  category: tropical
+  location: Bali, Indonesia
+  description: A pool suite at an adults-only, five-star beach bolthole in rural Sukawati – extras included
+  price: 73
+  price-description: per person per night
+  saved: 41
+  expires: 2018/08/20
+  link: https://www.secretescapes.com/the-royal-purnama-art-suites-and-villas-bali-indonesia/sale?utm_source=SE_Media&utm_medium=Havaianas&utm_campaign=Aug2018
 
 
 ###############################################################
@@ -152,71 +152,71 @@
 ##-------------------------------------------------------------
 
 
-- id: a-break-to-pretty-puglia-with-speedboat-excursions-car-hire
-  title: A break to pretty Puglia with speedboat excursions & car hire
+- id: vuyani-safari-lodge
+  title: Vuyani Safari Lodge
+  category: adventure
+  location: Moditlo Private Game Reserve, Hoedspruit, South Africa
+  description: A suite and game drives on a South Africa game reserve
+  price: 248
+  price-description: per suite per night
+  saved: 40
+  expires: 2018/08/20
+  link: https://www.secretescapes.com/vuyani-safari-lodge-moditlo-private-game-reserve-hoedspruit-south-africa5/sale?utm_source=SE_Media&utm_medium=Havaianas&utm_campaign=Aug2018
+
+- id: majestic-nile-cruise-on-a-1920s-style-sailing-boat
+  title: Majestic Nile cruise on a 1920s-style sailing boat
   editors-pick: true
   category: adventure
-  location: Puglia ,Italy
-  description: Enjoy Puglia's gorgeous scenery from land and sea
-  price: 459
-  price-description: per person for 7 nights
-  saved: 41
-  expires: 2018/08/02
-  link: https://www.secretescapes.com/southern-italy-holiday-with-speedboat-excursions-and-car-hire-bed-and-boat-conversano-puglia1/sale?utm_source=SE_Media&utm_medium=Havaianas&utm_campaign=July2018
-
-- id: wood-cabin-stay-amid-spectacular-wildlife-in-bristol
-  title: Wood cabin stay amid spectacular wildlife in Bristol
-  category: adventure
-  location: Camp Baboon, Blackhorse Hill
-  description: A luxury Wild Place Project glamping experience among wildlife in Bristol
-  price: 239
-  price-description: per room per night
-  saved: 33
-  expires: 2018/08/02
-  link: https://www.secretescapes.com/wood-cabin-stay-amid-spectacular-wildlife-in-bristol-camp-baboon-blackhorse-hill/sale?utm_source=SE_Media&utm_medium=Havaianas&utm_campaign=July2018
-
-- id: fascinating-cambodia-vietnam-trip-with-halong-bay-cruise
-  title: Fascinating Cambodia & Vietnam trip with Halong Bay cruise
-  category: adventure
-  location: Siem Reap, Hanoi, Halong Bay & Nha Trang
-  description: City, culture, beach and an overnight cruise on this Southeast Asia adventure
+  location: Luxor, Esna, Edfu, Kom Ombo, Aswan & more, Egypt
+  description: Discover ancient Egypt from a classic sailing boat
   price: 1699
-  price-description: per person for 12 nights
-  saved: 28
-  expires: 2018/08/02
-  link: https://www.secretescapes.com/cambodia-and-vietnam-trip-with-halong-bay-cruise-siem-reap-hanoi-halong-bay-and-nha-trang/sale?utm_source=SE_Media&utm_medium=Havaianas&utm_campaign=July2018
+  price-description: per person for 7 nights
+  saved: 32
+  expires: 2018/08/20
+  link: https://www.secretescapes.com/majestic-nile-cruise-on-a-1920s-style-sailing-boat3-luxor-esna-edfu-kom-ombo-aswan-and-more-egypt/sale?utm_source=SE_Media&utm_medium=Havaianas&utm_campaign=Aug2018
 
-- id: no-mans-fort
-  title: No Man's Fort
+- id: fascinating-poland-city-hop
+  title: Fascinating Poland city-hop
   category: adventure
-  location: Portsmouth, Hampshire
-  description: A bucket-list stay in a converted Solent sea fort
-  price: 349
-  price-description: per room per night
-  saved: 56
-  expires: 2018/08/02
-  link: https://www.secretescapes.com/no-mans-fort-portsmouth-hampshire/sale?utm_source=SE_Media&utm_medium=Havaianas&utm_campaign=July2018
+  location: Krakow, Warsaw & Gdansk
+  description: Discover unique Polish culture in its pivotal cities
+  price: 389
+  price-description: per person for 6 nights
+  saved: 37
+  expires: 2018/08/20
+  link: https://www.secretescapes.com/fascinating-poland-city-hop-krakow-warsaw-and-gdansk/sale?utm_source=SE_Media&utm_medium=Havaianas&utm_campaign=Aug2018
 
-- id: epic-san-francisco-hawaii-holiday-with-bay-cruise-tours
-  title: Epic San Francisco & Hawaii holiday with bay cruise & tours
+- id: epic-san-francisco-los-angeles-las-vegas-city-hopping-holiday
+  title: Epic San Francisco, Los Angeles Las Vegas city-hopping holiday
   category: adventure
-  location: Handlery Union Square Hotel & Shoreline Hotel Waikiki, USA
-  description: Sightseeing and bay cruising from San Fran to Honolulu
-  price: 1899
-  price-description: per person for 8 nights
+  location: California & Nevada
+  description: Discover America's greatest hits from San Fran and LA to Vegas
+  price: 879
+  price-description: per person for 6 nights
+  saved: 38
+  expires: 2018/08/20
+  link: https://www.secretescapes.com/epic-san-francisco-los-angeles-las-vegas-city-hopping-holiday-california-and-nevada/sale?utm_source=SE_Media&utm_medium=Havaianas&utm_campaign=Aug2018
+
+- id: colourful-lisbon-porto-city-break-with-optional-excursions
+  title: Colourful Lisbon & Porto city break with optional excursions
+  category: adventure
+  location: Hotel Florida & Hotel da Música, Portugal
+  description: Discover Portugal's vibrant capital and coast, with optional excursions
+  price: 289
+  price-description: per person for 4 nights
+  saved: 36
+  expires: 2018/08/20
+  link: https://www.secretescapes.com/colourful-lisbon-and-porto-city-break-with-optional-excursions-hotel-florida-and-hotel-da-musica-portugal/sale?utm_source=SE_Media&utm_medium=Havaianas&utm_campaign=Aug2018
+
+- id: spectacular-corsica-self-drive-tour-with-car-hire
+  title: Spectacular Corsica self-drive tour with car hire
+  category: adventure
+  location: Ajaccio, Bastia, Bonifacio & more
+  description: Hit the island roads with a self-drive break around sunny Corsica
+  price: 535
+  price-description: per person for 7 nights
   saved: 20
-  expires: 2018/08/02
-  link: https://www.secretescapes.com/epic-san-francisco-and-hawaii-holiday-with-bay-cruise-and-sightseeing-handlery-union-square-hotel-and-shoreline-hotel-waikiki-usa/sale?utm_source=SE_Media&utm_medium=Havaianas&utm_campaign=July2018
-
-- id: cool-baltic-break-to-stockholm-riga
-  title: Cool Baltic break to Stockholm & Riga
-  category: adventure
-  location: Rex Hotel, Sweden & Europa Royale Riga, Latvia
-  description: City-hop across the Baltic Sea from Stockholm to Riga
-  price: 319
-  price-description: per person for 5 nights
-  saved: 35
-  expires: 2018/08/02
-  link: https://www.secretescapes.com/cool-baltic-break-to-stockholm-and-riga-rex-hotel-sweden-and-europa-royale-riga-latvia/sale?utm_source=SE_Media&utm_medium=Havaianas&utm_campaign=July2018
+  expires: 2018/08/20
+  link: https://www.secretescapes.com/spectacular-corsica-self-drive-tour-with-car-hire-ajaccio-bastia-bonifacio-and-more/sale?utm_source=SE_Media&utm_medium=Havaianas&utm_campaign=Aug2018
 
 
